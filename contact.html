@@ -29,10 +29,11 @@
 
 <body>
     <!--Navbar -->
-    <nav class="HuisKleur mb-1 navbar navbar-expand-lg navbar-light ">
-        <a class="navbar-brand" href="#">
-            <img class="navbar-image" src="Logo-RC-Tech.png" alt="Logo" height="80" alt="Logo Mobiel kotteren"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarcontact"
+    <nav class="HuisKleur navbar navbar-expand-lg navbar-light ">
+        <a class="navbar-brand" href="index.html">
+            <img class="navbar-image" src="Logo-RC-Tech.png" alt="Logo" height="80" alt="Logo Mobiel kotteren">
+        </a>
+        <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarcontact"
             aria-controls="navbarcontact" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -59,12 +60,13 @@
             </ul>
             <ul class="navbar-nav nav-flex-icons ">
                 <li class="nav-item ">
-                    <a class="nav-link padding">
+                    <a href="https://www.facebook.com/RCtechkotteren/" target="blank" class="nav-link padding">
                         <i class="fab fa-facebook-square fa-2x"></i>
                     </a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link padding">
+                    <a href="https://www.youtube.com/channel/UCf0TOWnrN1ekGdqtLVGgpJg" target="blank"
+                        class="nav-link padding">
                         <i class="fab fa-youtube fa-2x"></i>
                     </a>
                 </li>
@@ -107,10 +109,12 @@
         </div>
     </div>
 
+    <!-- Footer -->
     <footer class="huistyle">
+
         <div class="container">
             <div class="row">
-                <div class="col-sm-4">
+                <div class="col-sm-4 ">
                     <h5>RC-Tech</h5>
                     <p>
                         Is een zelfstandige onderneming die gespecialiseerd is in mobiel kotteren <br> op locatie
@@ -118,19 +122,22 @@
                         klant.
                     </p>
                 </div>
-                <div class="col-sm-4 text-center">
-                    <p>
-                        Iframe facebook pagina + youtube .
-                    </p>
+                <div class="col-sm-4 ">
+                    <div class="embed-responsive embed-responsive-21by9">
+                        <iframe class="embed-responsive-item"
+                            src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FRCtechkotteren&tabs&width=300&height=130&small_header=false&adapt_container_width=false&hide_cover=false&show_facepile=false&appId"
+                            width="auto" height="auto" style="border:none;overflow:hidden" scrolling="no"
+                            frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+                    </div>
                 </div>
                 <div class="col-sm-4 ">
-                    <h5 id="Contact"><a class="HuisKleur" href="mailto:RC-tech@skynet.be">Contact</a></h5>
+                    <h5 id="Contact"><a class="HuisKleur" href="contact.html">Contact</a></h5>
                     <p class="">
                         Vlimmersebaan 25
                         <br>
                         2310 Rijkevorsel
                         <br>
-                        0479732970
+                        <a class="HuisKleur" href="tel:0479732970"><u>0479732970</u></a>
                         <br>
                         <a class="HuisKleur" href="mailto:RC-tech@skynet.be"> <u>RC-tech@skynet.be</u> </a>
                     </p>
