@@ -236,7 +236,19 @@ h3 i{color: #444;}
   padding-bottom: 50px;
 }
 
+.pictogrammen{
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  padding-top: 15px;
+}
 
+.extraPadding{
+  padding-bottom: 20px;
+}
 /* Footer */
 footer{
   padding: 15px;
